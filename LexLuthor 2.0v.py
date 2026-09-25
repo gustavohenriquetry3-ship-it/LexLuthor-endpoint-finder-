@@ -8,7 +8,7 @@ import sys
 
 DEFAULT_URL = "https://example.com"
 DEFAULT_TIMEOUT = 10
-DEFAULT_AGENT = '_GUI_Finder/1.0 (Python Tkinter)'
+DEFAULT_AGENT = '_GUI_Finder/1.0 (Lex TheGreat)'
 
 class EndpointFinderApp:
     def __init__(self, master):
@@ -25,7 +25,7 @@ class EndpointFinderApp:
         self.setup_widgets()
 
     def setup_widgets(self):
-        """Configura todos os elementos visuais."""
+        
         config_frame = tk.Frame(self.master, padx=15, pady=15, bd=2, relief=tk.GROOVE)
         config_frame.pack(fill="x", pady=10)
 
